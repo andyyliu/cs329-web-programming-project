@@ -1,1 +1,1 @@
-# cs329-web-programming-project
+# Final Project for CS 329E ELements of Web Programming
