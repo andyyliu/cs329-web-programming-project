@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="home page" />
+    <meta name="author" content="Group 37" />
+    <link href="logo.jpg" rel="icon">
+    <link href="login.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <span id="header">
+        <h1>
+            <a id="title" href="index.php">
+                <img id='logo' src="media/tlogo.png" alt="Wellness Tracker logo">
+            </a>
+            <a id="title" href="index.php">Wellness Tracker</a>
+        </h1>
+    </span>
+    <h2>
+        <a class="navbar" href="calendar.php">Calendar</a>
+        <a class="navbar" href="discussions.php">Discussions</a>
+        <a class="navbar" href="resources.php">Resources</a>
+        <a class="navbar" href="contact.php">Contact Us</a>
+        <a class="login" style="color: white" href="login.html"> Login</a>
+    </h2>
+    <div id="loginTitle">
+        <p>Login</p>
+    </div>
+    <form id="form" action="login.php" method="POST">
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td>
+                    <input id="username" name="username" type="text" placeholder="Enter your username here:" />
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input id="password" name="password" type="password" placeholder="Enter your password here:" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="question">
+                    Don't have an account? <a href="signup.html">Sign Up</a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login" />
+                    <input type="reset" value="Clear" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    <footer>
+        &#169 3/7/2021: Tina Z., Andy L., Sammy S., Kurt C.
+    </footer>
+</body>
+
+</html>

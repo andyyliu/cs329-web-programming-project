@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="home page" />
+    <meta name="author" content="Group 37" />
+    <link href="logo.jpg" rel="icon">
+    <link href="signup.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="signup.js" defer></script>
+</head>
+
+<body>
+    <span id="header">
+        <h1>
+            <a id="title" href="index.php">
+                <img id='logo' src="media/tlogo.png" alt="Wellness Tracker logo">
+            </a>
+            <a id="title" href="index.php">Wellness Tracker</a>
+        </h1>
+    </span>
+    <h2>
+        <a class="navbar" href="calendar.php">Calendar</a>
+        <a class="navbar" href="discussions.php">Discussions</a>
+        <a class="navbar" href="resources.php">Resources</a>
+        <a class="navbar" href="contact.php">Contact Us</a>
+        <a class="login" style="color: white" href="login.html"> Login</a>
+    </h2>
+    <div id="signUpTitle">
+        <p>Sign Up</p>
+    </div>
+    <p id="rules">
+        Your username must be greater than 2 characters long and only contain letters and digits, but cannot start with
+        a digit. Your password must be greater than 2 characters long, contain at least one lower case letter,
+        at least one upper case letter, and at least one digit.
+    </p>
+    <form id="form" action="register.php" method="POST">
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td>
+                    <input id="username" name="username" type="text" placeholder="Enter your username here:" />
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input id="password" name="password" type="password" placeholder="Enter your password here:" />
+                </td>
+            </tr>
+            <tr>
+                <td>Re-enter Password:</td>
+                <td>
+                    <input id="repeat" name="repeat" type="password" placeholder="Re-enter your password here:" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Register" />
+                    <input type="reset" value="Clear" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    <footer>
+        &#169 3/7/2021: Tina Z., Andy L., Sammy S., Kurt C.
+    </footer>
+</body>
+
+</html>

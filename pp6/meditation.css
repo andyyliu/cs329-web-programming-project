@@ -1,0 +1,71 @@
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+}
+
+h1 {
+    font-size: 24pt;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+}
+
+#logo {
+    width: 40px;
+}
+
+.title {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+#nav {
+    background-color: #9dae8a;
+    padding: 0.7em;
+}
+
+.navbar {
+    margin-right: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+.description {
+    font-size: 14pt;
+    padding-right: 2%;
+}
+
+.vid {
+    width: 500px;
+    height: 250px;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border: none;
+}
+
+.vidTitle {
+    text-align: center;
+    clear: left;
+}
+
+#additional {
+    text-align: center;
+    font-size: 15pt;
+    padding-bottom: 2%;
+}
+
+footer {
+    text-align: center;
+    background-color: #9dae8a;
+    padding: 0.7em;
+    bottom: 0px;
+    width: 100%;
+    clear: right;
+}

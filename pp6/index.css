@@ -1,0 +1,66 @@
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+#logo {
+    width: 65px;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    background-color: #9dae8a;
+    padding: 0.7em;
+}
+
+.navbar {
+    margin-right: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    margin-right: 20%;
+}
+
+footer {
+    text-align: center;
+    background-color: #9dae8a;
+    padding: 0.7em;
+    bottom: 0px;
+}
+
+#about {
+    text-align: center;
+    font-size: 20pt;
+}
+
+#title {
+    text-align: center;
+    font-size: 30pt;
+    padding: 1em;
+    background-color: #e6e6e6;
+
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 1em;
+}
